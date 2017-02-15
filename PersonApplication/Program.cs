@@ -38,7 +38,7 @@ namespace PersonApplication
             myFriends.AddPerson(person3);
 
 
-            //get one person rom persons collection
+            //get one person from persons collection
 
             Person person4 = myFriends.GetPerson(0);
             if (person4 != null)
