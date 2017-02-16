@@ -15,8 +15,11 @@ namespace CdApplication
             CD cd = new CD
             {
                 LevyNimi = "Black Sails At Midnight",
-                LevyArtisti = "Alestorm"
+                LevyArtisti = "Alestorm",
+                LevyHinta = "9.99e"
             };
+            
+            
 
             Console.WriteLine(cd.ToString());     
            
@@ -33,6 +36,7 @@ namespace CdApplication
             biisi.Add(new Biisi { BiisiNimi = "Chronicles Of Vengeance", BiisiKesto = "6:25" });
             biisi.Add(new Biisi { BiisiNimi = "Wolves Of The Sea", BiisiKesto = "3:34" });
 
+            Console.WriteLine("- Songs:");
          //Loopilla kaikki kappaleet listasta läpi
             foreach (Biisi Biisi in biisi)
             {

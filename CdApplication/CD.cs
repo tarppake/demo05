@@ -11,12 +11,12 @@ namespace CdApplication
 
     public string LevyNimi { get; set; }
     public string LevyArtisti { get; set; }
-
+    public string LevyHinta { get; set; }
       
         //method
         public override string ToString()
         {
-            return "CD Data:" + System.Environment.NewLine + "- Name: " + LevyNimi + System.Environment.NewLine + "- Artist: " + LevyArtisti;
+            return "CD Data:" + System.Environment.NewLine + "- Name: " + LevyNimi + System.Environment.NewLine + "- Artist: " + LevyArtisti + System.Environment.NewLine + "- Price: " + LevyHinta;
         }
 
 
