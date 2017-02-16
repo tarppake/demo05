@@ -9,7 +9,22 @@ namespace CdApplication
     class CD
     {
 
-        public string Cd { get; set; }
+    public string LevyNimi { get; set; }
+    public string LevyArtisti { get; set; }
+
+      
+        //method
+        public override string ToString()
+        {
+            return "CD Data:" + System.Environment.NewLine + "- Name: " + LevyNimi + System.Environment.NewLine + "- Artist: " + LevyArtisti;
+        }
+
+
+
+
+
+
+
 
 
     }
